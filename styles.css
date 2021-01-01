@@ -1,0 +1,403 @@
+*{
+    color:rgb(37, 16, 2);
+}
+.container{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;  
+    gap: 2px;
+    background-color: rgb(53, 23, 3);
+}
+.box{
+border-radius: 3px;
+background: linear-gradient(130deg,rgb(179, 83, 38),rgb(119, 38, 6),rgb(59, 20, 1));
+}
+.box1{
+    grid-row: 1/2 ;
+    grid-column:1/7 ;
+    text-align: center;
+}
+.box2{
+    grid-column: 1/3;
+    grid-row:2/4;
+    background-image:url('./img/perfil/perfil.jpg');
+    background-size: cover;
+    height: 90px;
+   
+}
+.box3{
+   
+    background-image:url('./img/logos/html.jpg');
+    background-size:cover;
+    background-position-y:40% ;
+}
+.box4{
+    background-image:url('./img/logos/css.jpg');
+    background-size:cover;
+    background-position-y:40% ;
+}
+.box5{
+    background-image:url('./img/logos/js.jpg');
+    background-size:cover;
+    background-position-y:40% ;
+}
+.box6{
+    background-image:url('./img/logos/bootstrap.jpg');
+    background-size:cover;
+    background-position-y:50% ;
+}
+.box7{
+    
+    background-image:url('./img/logos/node.jpg');
+    background-size:cover;
+    background-position-y:40% ;
+}
+.box8{
+   
+    background-image:url('./img/logos/reactGris.jpg');
+    background-size:cover;
+    background-position-y:50% ;
+
+}
+.box9{
+    background-image:url('./img/logos/photoshop.jpg');
+    background-size:contain;
+    background-position-y:50% ;
+    background-repeat:no-repeat;
+    background-position-x: center;
+}
+.box10{
+  
+    background-image:url('./img/logos/illustrator.jpg');
+    background-size:contain;
+    background-position-y:50% ;
+    background-repeat: no-repeat;
+    background-position-x: center;
+
+}
+.box18{
+    grid-column: 2/6;
+    grid-row: 6/8;
+    text-align: center;
+    
+}
+.box18:hover{
+    background:linear-gradient(90deg,rgb(255, 68, 0),rgb(121, 37, 6))
+}
+#sobre_mi{
+    height: 1400px;
+    width:100%;
+    
+
+}
+#cerrar{
+    border-radius:9px;
+    padding:9px;
+    box-shadow:black;
+    background-color: #3a1003;
+    color:white;
+
+}
+#cerrar:hover{
+    background-color: orangered;
+}
+.box35{
+    grid-column:2/6;
+    grid-row:9/20;
+    background-image:url('./img/nature-4864755_1920.jpg');
+    background-size:cover;
+    height: 300px;
+}
+.box28{
+    height: 60px;
+    background-color:#3a1003;
+    background-image:url('./img/appMarina.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.box28:hover{
+    background-color: orangered;
+}
+#box28Marco{
+    background-image:url('./img/appMarina.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#box29Marco{
+    background-image:url('./img/escualosPortada.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#box30Marco{
+    background-image:url('./img/fotografiaPortada.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#box31Marco{
+    background-image:url('./img/modelosPortada.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#box32Marco{
+    background-image:url('./img/clima.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#box33Marco{
+    background-image:url('./img/portadaTattoo.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#box34Marco{
+    background-image:url('./img/apuestasAppReact.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+#box36Marco{
+
+    background-image:url('./img/covid2.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.box29{
+    height: 60px;
+    background-color:#3a1003;
+    background-image:url('./img/escualosPortada.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.box29:hover{
+    background-color: orangered;
+}
+.box30{
+    height: 60px;
+    background-color:#3a1003;
+    background-image:url('./img/fotografiaPortada.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.box30:hover{
+    background-color: orangered;
+}
+.box31{
+    height: 60px;
+    background-color:#3a1003;
+    background-image:url('./img/modelosPortada.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.box31:hover{
+    background-color: orangered;
+}
+.box32{
+    height: 60px;
+    background-color:#3a1003;
+    background-image:url('./img/clima.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.box32:hover{
+    background-color: orangered;
+}
+.box33{
+    height: 60px;
+    background-color:#3a1003;
+    background-image:url('./img/portadaTattoo.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.box34{
+    grid-row:8/9;
+    height: 60px;
+    background-color:#3a1003;
+    background-image:url('./img/apuestasAppReact.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.box34:hover{
+    background-color:orangered;
+}
+.box33:hover{
+    background-color: orangered;
+}
+
+.box36{
+    grid-row:8/9;
+    height: 60px;
+    background-color:#3a1003;
+    background-image:url('./img/covid2.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.box36:hover{
+
+   background-color: orangered;
+}
+.box70{
+    grid-row:22/24;
+    grid-column:2/6 ;
+    text-align: center;
+    background-image: url('./img/wood-1350175_1280.jpg');
+    background-size:cover;
+}
+.box81{
+    grid-row:25/27;
+    grid-column: 2/3;
+    background-image:url('./img/logos/instagramLogo.png');
+    background-size:contain;
+    background-position-x:center;
+    background-repeat: no-repeat;
+    border:1px solid white;
+   
+}
+.box81:hover{
+    grid-row:25/27;
+    grid-column: 2/3;
+    background-color: orangered;
+}
+.box81:active{
+    grid-row:25/27;
+    grid-column: 2/3;
+    background-color: orangered;
+   
+}
+.box82{
+    grid-row:25/27;
+    grid-column: 3/4;
+    background-image:url('./img/logos/logo-2582757_1280.png');
+    background-size:contain;
+    background-position-x:center;
+    background-repeat: no-repeat;
+    border:1px solid white;
+}
+.box82:hover{
+    grid-row:25/27;
+    grid-column: 3/4;
+    background-color: orangered;
+}
+.box83{
+    grid-row:25/27;
+    grid-column: 4/5;
+    background-image:url('./img/logos/whatsapp.webp');
+    background-size:contain;
+    background-position-x:center;
+    background-repeat: no-repeat;
+    border:1px solid white;
+}
+.box83:hover{
+    grid-row:25/27;
+    grid-column: 4/5;
+    background-color: orangered;
+
+}
+.box84{
+    grid-row:25/27;
+    grid-column: 5/6;
+    background-image:url('./img/logos/netlify.png');
+    background-size:contain;
+    background-position-x:center;
+    background-repeat: no-repeat;
+    border:1px solid white;
+}
+.box84:hover{
+    grid-row:25/27;
+    grid-column: 5/6;
+    background-color: orangered;
+}
+.box90{
+    grid-column:3/5;
+    grid-row: 27/29;
+    background-image:url('./img/logos/shutterstock.jpg');
+    background-size:contain;
+    background-position-x:center;
+    background-repeat: no-repeat;
+    border:1px solid white;
+}
+
+.box90:hover{
+    grid-column:3/5;
+    grid-row: 27/29;
+    background-color: orangered;
+
+}
+.box71,.box72,.box73,.box74,.box75,.box76,.box77,.box78,.box79,.box80,
+.box81,.box82,.box83,.box84,.box85,.box86,.box87,.box88,.box89,.box90,
+.box91,.box92,.box93,.box94,.box95,.box96,.box97,.box98,.box99
+{
+    height: 35px;
+}
+/*MEDIA QUERYS*/
+
+@media(min-width:540px){
+
+.box2{
+   
+    height: 150px;
+    background-position-x: 20px;
+
+
+}
+}
+@media(min-width:696px){
+    .box35{
+        height: 390px;
+    }
+    
+}
+
+
+@media(min-width:834px){
+
+    .box2{
+       
+        height: 190px;
+        background-position-x: 30px;
+    
+    
+    }
+    }
+    
+@media(min-width:1170px){
+
+    .box2{
+       
+        height:240px;
+        background-position-x: 30px;
+    
+    
+    }
+    }
+        
+@media(min-width:1228px){
+
+    .box35{
+       
+        height:600px;
+      
+    
+    
+    }
+    }
